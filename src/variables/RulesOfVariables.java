@@ -28,6 +28,10 @@ public class RulesOfVariables {
 		 *  4.Parameter variables or arguments
 		 *  
 		 */
+		//Local variables which is created inside the block,level of access is within the block
+		//Instance variables inside the class outzide the method->Class variables stored in heap memeory
+		//static variables inside class,outside method,stored in mEtaspace
+		//Argumnts -when u want to modify the data go for it
 	}
 
 }
