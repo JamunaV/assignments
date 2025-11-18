@@ -10,7 +10,7 @@ public class Assignment6 {
 		StudentMarks[2]+=10;
 		
 		int additionalMarks[]= {StudentMarks[0],StudentMarks[1],StudentMarks[2]};
-		
+		System.out.println("Additonal marks is : "+additionalMarks[0] +" " +additionalMarks[1]+" "+additionalMarks[2]);
 		int average=(StudentMarks[0]+StudentMarks[1]+StudentMarks[2])/3;
 		System.out.println("Average marks is : "+average);
 	}
